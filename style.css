@@ -1,0 +1,244 @@
+body{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-size: 10px;
+ font-family: 'Roboto', sans-serif;
+ background-color: #2B2D42;
+}
+#naw
+{
+ position: fixed;
+ width: 100vw;
+ height: 50px;
+ background-color: #ef233c;
+ font-size: 20px;
+ z-index: 2;
+}
+#tytul::before
+{ 
+ position: fixed;
+ width: 100%;
+ height: 100%;
+ z-index:-1;
+ content:'';
+ opacity: 0.05;
+ background-repeat: no-repeat;
+ background-image: url("./tlo.jpg");
+ background-position: center;
+ background-size: cover;
+}
+#block
+{
+ position: absolute;
+ width: 50vw;
+ height: 300px;
+ margin: 50px 25vw 0px 25vw;
+ opacity: 1;
+ text-align: center;
+ font-size: 45px;
+}
+#zdj_1
+{
+ position: absolute;
+ width: 70vw;
+ height: 300px;
+ margin: 225px 15vw 0px 15vw;
+ opacity: 1;
+ text-align: center;
+}
+.opisy
+{
+ position: absolute;
+ padding-left: 20px;
+ padding-right: 20px;
+ width: 70vw;
+ height: 250px;
+ margin: 350px 15vw 0px 15vw;
+ top: 210px;
+ text-align: center;
+ 
+}
+.numer
+{
+ position: absolute;
+ padding-left: 20px;
+ padding-right: 20px;
+ width: 10vw;
+ height: 250px;
+ margin: 350px 2vw 0px 2vw;
+ top: 200px;
+ text-align: center;
+
+}
+#opis_1
+{
+ position: absolute;
+ padding-left: 20px;
+ padding-right: 20px;
+ width: 70vw;
+ height: 250px;
+ margin: 350px 15vw 0px 15vw;
+ top: 210px;
+ text-align: center;
+ border-style: solid;
+ border-width: 5px;
+ border-color: #ffc300;
+ background-color:#161a1d ;
+}
+#opis_2
+{
+ top: 510px;
+ border-style: solid;
+ border-width: 5px;
+ border-color: #ffc300;
+ background-color:#161a1d ;
+ height: auto;
+}
+#opis_3
+{
+ top: 740px;
+ border-style: solid;
+ border-width: 5px;
+ border-color: #ffc300;
+ background-color:#161a1d ;
+ height: auto;
+}
+#opis_4
+{
+ top: 1080px;
+ border-style: solid;
+ border-width: 5px;
+ border-color: #ffc300;
+ background-color:#161a1d ;
+ height: auto;
+}
+#opis_5
+{
+ top: 1380px;
+ border-style: solid;
+ border-width: 5px;
+ border-color: #ffc300;
+ background-color:#161a1d ;
+ height: auto;
+}
+#opis_6
+{
+ top: 1680px;
+ border-style: solid;
+ border-width: 5px;
+ border-color: #ffc300;
+ background-color:#161a1d ;
+ height: auto;
+}
+#daniel
+{
+ top: 1980px;
+ height: auto;
+ width: 15vw;
+ left: 55vw;
+}
+
+/* ----------------H2---------------- */
+#naw_nazwa
+{
+ position: absolute;
+ margin: 13px 8px;
+ display: inline;
+ font-size: 20px;
+ color: #ffc300;
+}
+#menu
+{
+ position: absolute;
+ display: inline;
+ right: 0;
+ margin: 13px;
+ color: #ffc300;
+ font-size: 20px;
+}
+.lp
+{
+ font-size: 100px;
+ color: #ef233c;
+}
+.g1
+{
+ color: #ffc300;
+ font-size: 35px;
+}
+.projekty
+{
+ color: #ffc300;
+ font-size: 25px;
+}
+#h2_1
+{
+ color: #ffc300;
+ font-size: 60px;
+ font-style: oblique;
+ font-stretch: ultra-expanded;
+ font-weight: 1400;
+}
+#h2_2
+{
+ color: #ffc300;
+}
+#nr2
+{
+ top: 470px
+}
+#nr3
+{
+ top: 730px
+}
+#nr4
+{
+ top: 1060px
+}
+#nr5
+{
+ top: 1370px
+}
+#nr6
+{
+ top: 1690px
+}
+#podziekowania
+{
+ font-size: 15px;
+}
+#daniel_koks
+{
+ font-style: oblique;
+ border-style: solid;
+ border-width: 2px;
+ border-color: #ffc300;
+ background-color: #161a1d;
+ color: turquoise;
+}
+
+/* ----------------IMAGE---------------- */
+#bitcoin
+{
+ margin-top: 4px;
+ margin-left: 10px;
+ height: 40px;
+ display: inline;
+}
+#blockchain_zdj_1
+{
+ border-style: solid;
+ border-width: 5px;
+ border-color: #ffc300;
+ width: 50vw;
+ height: 290px;
+}
+
+
+/* ----------------HOVER---------------- */
+#menu:hover{
+ background-color: #ffc300;
+ color: white;
+ border-radius: 5px;
+}
